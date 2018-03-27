@@ -1,0 +1,35 @@
+@import '../../styles.scss';
+
+$columns: 6;
+$minRowHeight: 300px;
+$gridGap: 0;
+
+.container {
+    @include custom_grid( $columns, $minRowHeight, $gridGap );
+    grid-template-areas:
+    "p1 p1 p2 p2 p3 p3"
+}
+
+.p1 {
+    grid-area: p1;
+}
+
+.p1-style .ui-scrollpanel-content {
+    padding: 2em;
+}
+
+.p2 {
+    grid-area: p2;
+}
+
+.p2-style .ui-scrollpanel-content {
+    padding: 2em;
+}
+
+.p3 {
+    grid-area: p3;
+}
+
+.p3-style .ui-scrollpanel-content {
+    padding: 2em;
+}
