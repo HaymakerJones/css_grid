@@ -4,6 +4,12 @@ $columns: 6;
 $minRowHeight: 300px;
 $gridGap: 10px;
 
+.demo1-header .ui-card-title {
+    font-size: 26px;
+    text-align: center;
+}
+
+
 //smallest
 .container {
     @include custom_grid( $columns, $minRowHeight, $gridGap );

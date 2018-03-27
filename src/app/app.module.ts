@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { Demo1Component } from './demo1/demo1.component';
 
 import { ScrollPanelModule } from 'primeng/scrollpanel';
+import { CardModule } from 'primeng/card';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { ScrollPanelModule } from 'primeng/scrollpanel';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    ScrollPanelModule
+    ScrollPanelModule,
+    CardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
