@@ -2,13 +2,47 @@
 
 $columns: 6;
 $minRowHeight: 300px;
-$gridGap: 0;
+$gridGap: 10px;
 
+//smallest
 .container {
     @include custom_grid( $columns, $minRowHeight, $gridGap );
     grid-template-areas:
-    "p1 p1 p2 p2 p3 p3"
+    ". p1 p1 p1 p1 ."
+    ". p2 p2 p2 p2 ."
+    ". p3 p3 p3 p3 .";
 }
+
+/*
+//sm
+@media screen and ( min-width: 760px ) {
+    .container {
+        @include custom_grid( $columns, $minRowHeight, $gridGap );
+        grid-template-areas:
+        "p1 p1 p2 p2 p3 p3"
+    }
+}
+*/
+
+//md or larger
+@media screen and ( min-width: 992px ) {
+    .container {
+        @include custom_grid( $columns, $minRowHeight, $gridGap );
+        grid-template-areas:
+        "p1 p1 p2 p2 p3 p3";
+    }
+}
+
+/*
+//lg
+@media screen and ( min-width: 1200px ) {
+    .container {
+        @include custom_grid( $columns, $minRowHeight, $gridGap );
+        grid-template-areas:
+        "p1 p1 p2 p2 p3 p3"
+    }
+}
+*/
 
 .p1 {
     grid-area: p1;
