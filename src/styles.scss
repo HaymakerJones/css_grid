@@ -1,0 +1,6 @@
+@mixin custom_grid( $columns, $minRowHeight, $gridGap ) {
+    display: grid;
+    grid-template-columns: repeat( $columns, 1fr );
+    grid-auto-rows: minmax( $minRowHeight );
+    grid-gap: $gridGap
+}
