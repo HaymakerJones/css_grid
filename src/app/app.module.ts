@@ -8,17 +8,21 @@ import { Demo1Component } from './demo1/demo1.component';
 import { ScrollPanelModule } from 'primeng/scrollpanel';
 import { CardModule } from 'primeng/card';
 
+import { GridContainerDemosModule } from './grid-container-demos/grid-container-demos.module';
+
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    Demo1Component
+    Demo1Component,
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     ScrollPanelModule,
-    CardModule
+    CardModule,
+    GridContainerDemosModule
   ],
   providers: [],
   bootstrap: [AppComponent]
