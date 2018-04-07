@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { GridContainerDemosComponent } from './grid-container-demos.component';
+import { ExplicitGridComponent } from './explicit-grid/explicit-grid.component';
 
 
 
@@ -10,7 +11,8 @@ import { GridContainerDemosComponent } from './grid-container-demos.component';
         GridContainerDemosComponent
     ],
     declarations: [
-        GridContainerDemosComponent
+        GridContainerDemosComponent,
+        ExplicitGridComponent
     ],
     providers: [],
 })
