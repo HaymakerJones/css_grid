@@ -9,6 +9,7 @@ import { ScrollPanelModule } from 'primeng/scrollpanel';
 import { CardModule } from 'primeng/card';
 
 import { GridContainerDemosModule } from './grid-container-demos/grid-container-demos.module';
+import { GridItemDemosModule } from './grid-item-demos/grid-item-demos.module';
 
 
 
@@ -22,7 +23,8 @@ import { GridContainerDemosModule } from './grid-container-demos/grid-container-
     BrowserAnimationsModule,
     ScrollPanelModule,
     CardModule,
-    GridContainerDemosModule
+    GridContainerDemosModule,
+    GridItemDemosModule
   ],
   providers: [],
   bootstrap: [AppComponent]
