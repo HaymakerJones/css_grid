@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { GridContainerDemosComponent } from './grid-container-demos.component';
 import { ExplicitGridComponent } from './explicit-grid/explicit-grid.component';
+import { GridColRowComponent } from './grid-col-row/grid-col-row.component';
 
 
 
@@ -12,7 +13,8 @@ import { ExplicitGridComponent } from './explicit-grid/explicit-grid.component';
     ],
     declarations: [
         GridContainerDemosComponent,
-        ExplicitGridComponent
+        ExplicitGridComponent,
+        GridColRowComponent
     ],
     providers: [],
 })
