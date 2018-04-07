@@ -1,0 +1,9 @@
+.basic-grid {
+    display: grid;
+    width: 780px;
+    margin: 0 auto;
+}
+
+div {
+    border: solid black 1px;
+}
