@@ -5,6 +5,7 @@ import { ExplicitGridComponent } from './explicit-grid/explicit-grid.component';
 import { GridColRowComponent } from './grid-col-row/grid-col-row.component';
 import { BasicGridComponent } from './basic-grid/basic-grid.component';
 import { MinMaxComponent } from './min-max/min-max.component';
+import { GridAreaComponent } from './grid-area/grid-area.component';
 
 
 
@@ -18,7 +19,8 @@ import { MinMaxComponent } from './min-max/min-max.component';
         ExplicitGridComponent,
         GridColRowComponent,
         BasicGridComponent,
-        MinMaxComponent
+        MinMaxComponent,
+        GridAreaComponent
     ],
     providers: [],
 })

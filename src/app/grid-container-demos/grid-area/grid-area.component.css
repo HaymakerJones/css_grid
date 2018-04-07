@@ -1,0 +1,29 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr minmax(150px, auto) 1fr;
+    grid-template-areas: 
+    "header header"
+    "sidebar body"
+    "footer footer"
+}
+
+.header {
+    grid-area: header;
+    border: solid black 1px;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    border: solid black 1px;
+}
+
+.body {
+    grid-area: body;
+    border: solid black 1px;
+}
+
+.footer {
+    grid-area: footer;
+    border: solid black 1px;
+}
