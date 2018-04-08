@@ -1,11 +1,11 @@
 .grid {
     display: grid;
     grid-template-columns: 1fr 4fr;
-    grid-template-rows: 1fr minmax(150px, auto) 1fr;
+    grid-template-rows: 1fr 4fr 1fr;
     grid-template-areas: 
     "header header"
     "sidebar body"
-    "footer footer"
+    "footer footer";
 }
 
 .header {
