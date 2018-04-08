@@ -6,11 +6,14 @@ import { GridColRowComponent } from './grid-col-row/grid-col-row.component';
 import { BasicGridComponent } from './basic-grid/basic-grid.component';
 import { MinMaxComponent } from './min-max/min-max.component';
 import { GridAreaComponent } from './grid-area/grid-area.component';
+import { ImplicitGridComponent } from './implicit-grid/implicit-grid.component';
 
 
 
 @NgModule({
-    imports: [],
+    imports: [
+        CommonModule
+    ],
     exports: [
         GridContainerDemosComponent
     ],
@@ -20,7 +23,8 @@ import { GridAreaComponent } from './grid-area/grid-area.component';
         GridColRowComponent,
         BasicGridComponent,
         MinMaxComponent,
-        GridAreaComponent
+        GridAreaComponent,
+        ImplicitGridComponent
     ],
     providers: [],
 })

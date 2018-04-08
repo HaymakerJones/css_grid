@@ -1,0 +1,11 @@
+<h1>Implicit Grid Demo</h1>
+<button (click)="setClass(1)">Grid 1</button>
+<button (click)="setClass(2)">Grid 2</button>
+<button (click)="setClass(3)">Grid 3</button>
+
+<div [ngClass]="classFlag">
+  <div class="item">1</div>
+  <div class="item">2</div>
+  <div class="item">3</div>
+  <div class="item">4</div>
+</div>
