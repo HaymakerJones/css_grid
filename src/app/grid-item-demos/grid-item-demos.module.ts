@@ -1,14 +1,19 @@
 import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
 
 import { GridItemDemosComponent } from './grid-item-demos.component';
+import { JustifyComponent } from './justify/justify.component';
 
 @NgModule({
-    imports: [],
+    imports: [
+        CommonModule
+    ],
     exports: [
         GridItemDemosComponent
     ],
     declarations: [
-        GridItemDemosComponent
+        GridItemDemosComponent,
+        JustifyComponent
     ],
     providers: [],
 })
