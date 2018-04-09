@@ -8,6 +8,7 @@ import { MinMaxComponent } from './min-max/min-max.component';
 import { GridAreaComponent } from './grid-area/grid-area.component';
 import { ImplicitGridComponent } from './implicit-grid/implicit-grid.component';
 import { LayeredGridComponent } from './layered-grid/layered-grid.component';
+import { FixedTableComponent } from './fixed-table/fixed-table.component';
 
 
 
@@ -26,7 +27,8 @@ import { LayeredGridComponent } from './layered-grid/layered-grid.component';
         MinMaxComponent,
         GridAreaComponent,
         ImplicitGridComponent,
-        LayeredGridComponent
+        LayeredGridComponent,
+        FixedTableComponent
     ],
     providers: [],
 })

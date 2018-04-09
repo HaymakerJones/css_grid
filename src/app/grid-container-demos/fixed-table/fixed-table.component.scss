@@ -1,0 +1,54 @@
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 99vw;
+    border: solid black 1px;
+    z-index: 1;
+}
+
+.header-grid {
+    border: solid blue 1px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.header {
+    border: black solid 1px;
+}
+
+.grid {
+    margin-top: 6em;
+    position: absolute;
+    left: 0;
+    width: 99vw;
+    display: grid;
+    border: solid black 1px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.grid {
+    div:nth-child(odd) {
+        background-color: lightgrey;
+    }
+}
+
+.feature {
+    border: solid red 1px;
+    grid-column: 1/2;
+}
+
+.option1 {
+    border: solid red 1px;
+    grid-column: 2/3;
+}
+
+.option2 {
+    border: solid red 1px;
+    grid-column: 3/4;
+}
+
+.option3 {
+    border: solid red 1px;
+    grid-column: 4/5;
+}
