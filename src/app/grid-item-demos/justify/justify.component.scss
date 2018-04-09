@@ -1,0 +1,21 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: minmax(25px, auto);
+    grid-auto-flow: rows;
+}
+
+.justify-center {
+    border: solid black 1px;
+    justify-self: center;
+}
+
+.justify-end {
+    border: solid black 1px;
+    justify-self: end;
+}
+
+.align-center {
+    border: solid black 1px;
+    align-self: center;
+}
