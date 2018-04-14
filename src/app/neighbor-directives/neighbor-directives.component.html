@@ -1,0 +1,9 @@
+<section>
+  Add todo:
+  <app-view-child-a (todo)="addTodo( $event )"></app-view-child-a>
+</section>
+<section>
+  <h4 *ngIf="todos.getAll().length">ToDo List</h4>
+  <app-view-child-b *ngFor="let todo of todos.getAll()" [todo]="todo"></app-view-child-b>
+</section>
+<ng-content select="app-footer"></ng-content>
